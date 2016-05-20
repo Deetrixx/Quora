@@ -1,0 +1,182 @@
+body {
+    background-image: url(img/-images.home.logged_out_bg3.png4318c33ac15420e3.png);
+    background-repeat: no-repeat;
+    width: 1000px;
+    height: 700px;
+    margin: 0 auto;
+    position: absolute;
+    background-position: top center;
+}
+#container {
+    margin: 0 auto;
+    height: 600px;
+    width: 960px;
+}
+#header {
+    width: 600px;
+    height: 100px;
+    margin-left: 40%;
+}
+.header-cont,
+.header-head {
+    text-align: center;
+}
+h2 {
+    color: darkred;
+    font-size: 60px;
+    font-weight: 900;
+}
+.header-cont p {
+    font-family: 'Droid Serif', serif;
+    font-size: 18px;
+}
+
+/* Aligning the login box elements */
+
+#form-box {
+    width: 640px;
+    height: 280px;
+    padding: 5px 5px 5px 5px;
+    border: 1px solid #919191;
+    margin-left: 32%;
+    margin-top: 5%;
+    background: snow;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+}
+form {
+    width: 300px;
+    height: 280px;
+    float: right;
+    padding-left: 10px;
+}
+.form-btn {
+    width: 300px;
+    height: 280px;
+    float: left;
+    border-right: 1px solid grey;
+    margin-left: 5px;
+}
+
+/* The social media buttons*/
+
+#buttons {
+    padding: 10px 7px;
+    overflow: hidden;
+    margin: 0 0px 10px;
+}
+.button {
+    position: relative;
+    display: block;
+    float: left;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.facebook-button {
+    background: blue;
+    width: 250px;
+    height: 40px;
+}
+.google-button {
+    background: red;
+    width: 250px;
+    height: 40px;
+}
+.icon {
+    display: block;
+    float: left;
+    position: relative;
+    z-index: 2;
+    vertical-align: top;
+    width: 40px;
+    text-align: center;
+}
+.icon i {
+    line-height: 35px;
+    color: snow;
+}
+#buttons p {
+    color: snow;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    left: 0;
+    padding-top: 10px;
+    font-weight: 600;
+}
+.content {
+    font-size: 15px;
+    color: #666666;
+    text-align: justify;
+    line-height: 18px;
+}
+span {
+    color: blue;
+}
+form placeholder {
+    color: black;
+}
+input {
+    padding: 9px;
+    border: 1px solid darkgrey;
+    outline: 0;
+    width: 250px;
+    height: 15px;
+    background: #EEE9E9;
+    border-radius: 2px;
+}
+#check-box input[type=checkbox] {
+    position: relative;
+}
+.button {
+    width: 45px;
+    height: 25px;
+    background: #4876FF;
+    opacity: 0.6;
+    border: 0;
+    padding: 4px 6px;
+    font-size: 14px;
+    color: snow;
+    float: right;
+    margin-right: 15px;
+    border-radius: 3px;
+}
+input:hover,
+input:focus,
+{
+    border-color: black;
+}
+.login {
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+#pswd1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}
+#pswd1 a {
+    color: black;
+    text-decoration: none;
+}
+#pswd1 a:hover {
+    text-decoration-line: underline;
+}
+
+/******** The footer navigation ********
+*********/
+
+#footer {
+    height: 100px;
+    margin-left: 40%;
+    text-align: center;
+    height: 20px;
+}
+#footer li {
+    display: inline-block;
+    text-decoration: none;
+}
+#footer li a {
+    padding: 10px;
+    text-decoration: none;
+    color: #666666;
+}
